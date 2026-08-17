@@ -37,12 +37,14 @@ Register it with an MCP client (Claude Desktop shown here):
 
 ## Tools
 
-| Tool | Purpose |
-|---|---|
-| `search_solutions` | Free-text + filters (type, ecosystem, capabilities, origin, picks) |
-| `get_solution` | Full record for one id |
-| `list_categories` | Every category with its record count |
-| `compare_solutions` | 2–4 records aligned on the same fields |
+
+| Tool                | Purpose                                                            |
+| ------------------- | ------------------------------------------------------------------ |
+| `search_solutions`  | Free-text + filters (type, ecosystem, capabilities, origin, picks) |
+| `get_solution`      | Full record for one id                                             |
+| `list_categories`   | Every category with its record count                               |
+| `compare_solutions` | 2–4 records aligned on the same fields                             |
+
 
 ## Design decisions
 
@@ -77,10 +79,16 @@ adding a private column in Notion later cannot silently leak it here.
 ## Known limitations
 
 - Notion's `Type` is a single select, so each tool has exactly one category
-  even when two would fit.
+even when two would fit.
 - Category values were entered by hand over three years and are uneven; the
-  sync folds casing duplicates but does not merge near-synonyms.
+sync folds casing duplicates but does not merge near-synonyms.
 - No relevance ranking beyond field-weighted substring matching.
+- Attribute tagging is uneven. `Local` and `Open Source` were applied at different periods with different habits, and they overlap on only one
+
+    record even though many tools qualify for both. Filters are honest about what is tagged, not about what is true — a property this dataset shares
+
+    with most real internal databases.
+- Node resolution depends on the host environment. The server was observed starting under two different Node installations on the same machine depending on the launching context. Pin the runtime path in your client config if that matters to you.
 
 ## Syncing (maintainer only)
 
