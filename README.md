@@ -1,7 +1,7 @@
 # genai-solutions-mcp
 
 An MCP server that exposes a curated database of generative AI tools —
-1,100+ records I have maintained in Notion since 2023 — as four tools an
+1,197 records I have maintained in Notion since 2023 — as four tools an
 AI assistant can query directly.
 
 Instead of asking a model what AI tools exist and getting a plausible but
