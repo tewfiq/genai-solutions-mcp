@@ -24,7 +24,6 @@ const dsId: string = dataSourceId;
 const KEEP = {
   title: "Solution Gen AI",
   url: "URL",
-  summary: "AI summary",
   type: "Type",
   date: "Date",
   ecosystems: ["Anthropic", "OpenAI", "Google", "Ollama"] as const,
@@ -84,13 +83,10 @@ function toSolution(page: any, taken: Set<string>): Solution | null {
   const name = plain(p[KEEP.title]);
   if (!name) return null;
 
-  const summary = plain(p[KEEP.summary]);
-
   return {
     id: slug(name, taken),
     name,
     url: p[KEEP.url]?.url || null,
-    summary: summary || null,
     type: canonType(p[KEEP.type]?.select?.name ?? null),
     ecosystems: KEEP.ecosystems.filter((e) => isYes(p[e])) as Ecosystem[],
     capabilities: KEEP.capabilities.filter((c) => isYes(p[c])),

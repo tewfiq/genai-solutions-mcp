@@ -20,10 +20,10 @@ server.registerTool(
     title: "Search GenAI solutions",
     description:
       "Search a curated database of generative AI tools by free text and filters. " +
-      "Returns a short projection (id, name, type, summary, url); call get_solution " +
+      "Returns a short projection (id, name, type, url); call get_solution " +
       "with an id for the full record.",
     inputSchema: {
-      query: z.string().optional().describe("Free text, matched against name and summary"),
+      query: z.string().optional().describe("Free text, matched against name"),
       type: z.string().optional().describe("Category — call list_categories for valid values"),
       ecosystem: z.enum(["Anthropic", "OpenAI", "Google", "Ollama"]).optional(),
       capabilities: z

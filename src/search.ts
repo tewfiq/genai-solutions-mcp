@@ -14,7 +14,7 @@ const norm = (s: string) =>
   s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
 /**
- * Substring matching over name + summary. Deliberately not embeddings:
+ * Substring matching over name. Deliberately not embeddings:
  * the corpus is ~1,100 records, so a linear scan is sub-millisecond and
  * gives deterministic, explainable results with no index to keep in sync.
  */
@@ -37,11 +37,9 @@ export function search(all: Solution[], p: SearchParams): Solution[] {
     let score = 0;
     if (terms.length) {
       const name = norm(s.name);
-      const summary = norm(s.summary ?? "");
       for (const t of terms) {
         if (name === t) score += 10;
         else if (name.includes(t)) score += 5;
-        else if (summary.includes(t)) score += 1;
         else { score = -1; break; }
       }
       if (score < 0) continue;

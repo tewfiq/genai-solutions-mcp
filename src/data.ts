@@ -8,7 +8,6 @@ export interface Solution {
   id: string;
   name: string;
   url: string | null;
-  summary: string | null;
   type: string | null;
   ecosystems: Ecosystem[];
   capabilities: string[];
@@ -26,10 +25,10 @@ export interface Snapshot {
 }
 
 /** Short projection returned by search — keeps agent context small. */
-export type SolutionSummary = Pick<Solution, "id" | "name" | "type" | "summary" | "url">;
+export type SolutionSummary = Pick<Solution, "id" | "name" | "type" | "url">;
 
 export function project(s: Solution): SolutionSummary {
-  return { id: s.id, name: s.name, type: s.type, summary: s.summary, url: s.url };
+  return { id: s.id, name: s.name, type: s.type, url: s.url };
 }
 
 let cache: Snapshot | null = null;

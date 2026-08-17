@@ -65,9 +65,9 @@ grows an order of magnitude or the summaries get longer, this is the first
 thing to revisit.
 
 **Search returns a projection, not full records.** `search_solutions` returns
-only id, name, type, summary and url. Returning complete records for a
-20-result query would spend a large amount of the agent's context on fields
-it usually does not need; `get_solution` is there for when it does.
+only id, name, type and url. Returning complete records for a 20-result
+query would spend a large amount of the agent's context on fields it usually
+does not need; `get_solution` is there for when it does.
 
 **A property whitelist in the sync, not a blacklist.** The Notion database
 contains internal workflow state and attachments that have no business
@@ -76,8 +76,6 @@ adding a private column in Notion later cannot silently leak it here.
 
 ## Known limitations
 
-- `summary` fields are model-generated from the tool's own materials. They
-  are a starting point for triage, not independent reviews.
 - Notion's `Type` is a single select, so each tool has exactly one category
   even when two would fit.
 - Category values were entered by hand over three years and are uneven; the
