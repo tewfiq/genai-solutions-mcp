@@ -1,0 +1,23 @@
+{
+  "name": "genai-solutions-mcp",
+  "version": "0.1.0",
+  "description": "MCP server exposing a curated database of 1,100+ generative AI solutions",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "genai-solutions-mcp": "dist/src/index.js" },
+  "files": ["dist", "data"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "sync": "tsc && node dist/scripts/sync-notion.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@notionhq/client": "^5.1.0",
+    "zod": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
