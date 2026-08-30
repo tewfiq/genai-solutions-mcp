@@ -1,7 +1,7 @@
 {
   "source": "Private Notion database, curated since 2023",
-  "syncedAt": "2026-08-17",
-  "count": 1197,
+  "syncedAt": "2026-08-30",
+  "count": 1212,
   "solutions": [
     {
       "id": "new-v0",
@@ -25,7 +25,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "01-ai",
@@ -61,7 +61,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "21st-dev",
@@ -697,7 +697,7 @@
       ],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2026-08-15"
     },
     {
       "id": "albert-x-tchap",
@@ -970,7 +970,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "arcade",
@@ -1362,7 +1362,24 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
+    },
+    {
+      "id": "berd",
+      "name": "Berd",
+      "url": "https://berd.xyz/",
+      "type": "AI Agents",
+      "ecosystems": [
+        "Anthropic",
+        "OpenAI"
+      ],
+      "capabilities": [
+        "Open Source"
+      ],
+      "origin": [],
+      "hasOutput": true,
+      "pick": true,
+      "added": "2026-08-19"
     },
     {
       "id": "bind-ai",
@@ -1391,7 +1408,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "biomedparse",
@@ -1493,7 +1510,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "boba",
@@ -1581,7 +1598,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2025-09-05"
     },
     {
       "id": "brand-kiit",
@@ -1638,7 +1655,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2026-06-09"
     },
     {
       "id": "browser-use",
@@ -1782,7 +1799,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "bullet",
@@ -1905,7 +1922,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "cara",
@@ -2103,7 +2120,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "chatbase",
@@ -2143,7 +2160,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "chatgpt-work-with-vs-code",
@@ -2376,7 +2393,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "claude-3-5-sonnet",
@@ -2906,7 +2923,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "code-assistant",
@@ -2982,7 +2999,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "codeguide",
@@ -3103,7 +3120,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "colibri",
@@ -3313,7 +3330,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "cracked-ai",
@@ -3562,7 +3579,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "dall-e-3",
@@ -3604,7 +3621,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "databutton",
@@ -3841,6 +3858,22 @@
       "added": "2024-07-14"
     },
     {
+      "id": "deepseek-harness-dsh",
+      "name": "DeepSeek Harness DSH",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "type": "Harness",
+      "ecosystems": [
+        "OpenAI"
+      ],
+      "capabilities": [],
+      "origin": [
+        "China"
+      ],
+      "hasOutput": true,
+      "pick": true,
+      "added": "2026-08-18"
+    },
+    {
       "id": "deepseek-ocr",
       "name": "DeepSeek OCR",
       "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
@@ -4008,6 +4041,22 @@
       "added": "2025-06-17"
     },
     {
+      "id": "delta-zed",
+      "name": "Delta Zed",
+      "url": "https://zed.dev/deltadb",
+      "type": "Platform",
+      "ecosystems": [
+        "Anthropic",
+        "OpenAI",
+        "Google"
+      ],
+      "capabilities": [],
+      "origin": [],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-20"
+    },
+    {
       "id": "delta-surf",
       "name": "Delta.surf",
       "url": "https://deta.surf/",
@@ -4101,7 +4150,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "devstral2-cli",
@@ -4660,7 +4709,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "elia",
@@ -4866,7 +4915,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "fal-ai-x-flux-1-dev",
@@ -4920,7 +4969,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "fantom-ai",
@@ -4970,7 +5019,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "figma-ai",
@@ -5072,7 +5121,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "fireworks-ai",
@@ -5221,7 +5270,7 @@
       ],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "flowith",
@@ -5408,7 +5457,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "formshare",
@@ -5462,7 +5511,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "framer-interactive-fi",
@@ -5605,7 +5654,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "gaze-lle",
@@ -5633,7 +5682,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "gemini-1-5-pro-exp-0801",
@@ -5734,6 +5783,20 @@
       "hasOutput": true,
       "pick": true,
       "added": "2026-05-19"
+    },
+    {
+      "id": "gemini-3-7-flash",
+      "name": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "type": "LLM",
+      "ecosystems": [
+        "Google"
+      ],
+      "capabilities": [],
+      "origin": [],
+      "hasOutput": true,
+      "pick": true,
+      "added": "2026-08-18"
     },
     {
       "id": "gemini-app",
@@ -5974,7 +6037,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "gemma-2",
@@ -6095,7 +6158,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2025-04-15"
     },
     {
       "id": "geospy",
@@ -6173,7 +6236,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "github-copilot-cli",
@@ -6307,6 +6370,36 @@
       "added": "2026-06-17"
     },
     {
+      "id": "glm-5-3",
+      "name": "GLM 5.3",
+      "url": "https://z.ai/blog/glm-5.3",
+      "type": "LLM",
+      "ecosystems": [],
+      "capabilities": [
+        "Open Source"
+      ],
+      "origin": [
+        "China"
+      ],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-18"
+    },
+    {
+      "id": "glm-5-3-flash",
+      "name": "GLM 5.3 Flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "type": "LLM",
+      "ecosystems": [],
+      "capabilities": [],
+      "origin": [
+        "China"
+      ],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-27"
+    },
+    {
       "id": "globalgpt",
       "name": "GlobalGPT",
       "url": "https://glbgpt.com/recommend",
@@ -6347,6 +6440,24 @@
       "hasOutput": true,
       "pick": true,
       "added": "2025-05-14"
+    },
+    {
+      "id": "god-s-eye-view",
+      "name": "God’s Eye View",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "type": "Monitoring",
+      "ecosystems": [
+        "OpenAI",
+        "Google"
+      ],
+      "capabilities": [
+        "Open Source",
+        "Terminal"
+      ],
+      "origin": [],
+      "hasOutput": true,
+      "pick": true,
+      "added": "2026-08-25"
     },
     {
       "id": "gollama",
@@ -6652,7 +6763,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "gpt-4-5",
@@ -6752,7 +6863,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "gradio",
@@ -6868,7 +6979,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "grok-2-beta",
@@ -6894,7 +7005,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "groq-appgen",
@@ -7277,7 +7388,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "hf-spaces",
@@ -7371,7 +7482,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "humane-ai-pin",
@@ -7385,7 +7496,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "hume-ai",
@@ -7397,7 +7508,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "hunch",
@@ -7423,7 +7534,7 @@
       ],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2025-08-07"
     },
     {
       "id": "hunyuan-2",
@@ -7593,7 +7704,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "ideogram-2-0",
@@ -7956,7 +8067,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "janus-ai",
@@ -8155,7 +8266,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2026-07-29"
     },
     {
       "id": "just-dub-it",
@@ -8807,7 +8918,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "leonardo-ai-phoenix",
@@ -8944,7 +9055,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "ling-2-6-flash",
@@ -8961,7 +9072,7 @@
       ],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2026-05-03"
     },
     {
       "id": "ling-1t",
@@ -9098,7 +9209,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "llava",
@@ -9151,7 +9262,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "lmsys-chatbot-arena",
@@ -9165,7 +9276,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "lobehub",
@@ -9570,7 +9681,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "mai-playground",
@@ -10068,7 +10179,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "minform",
@@ -10147,6 +10258,20 @@
       "hasOutput": false,
       "pick": true,
       "added": "2025-12-26"
+    },
+    {
+      "id": "minimax-h3-design",
+      "name": "MiniMax H3 Design",
+      "url": "https://design.minimax.io/",
+      "type": "Design",
+      "ecosystems": [],
+      "capabilities": [],
+      "origin": [
+        "China"
+      ],
+      "hasOutput": true,
+      "pick": true,
+      "added": "2026-08-17"
     },
     {
       "id": "minimax-m2",
@@ -10338,7 +10463,7 @@
       ],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "mistral-medium-3-5",
@@ -10354,7 +10479,7 @@
       ],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2026-05-03"
     },
     {
       "id": "mistral-ocr",
@@ -10773,7 +10898,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "multion",
@@ -10853,7 +10978,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "mv-adapter",
@@ -11106,7 +11231,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "notebooklm-video",
@@ -11159,7 +11284,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "o3",
@@ -11196,6 +11321,20 @@
       "hasOutput": false,
       "pick": true,
       "added": "2024-12-11"
+    },
+    {
+      "id": "ojo-art",
+      "name": "Ojo Art",
+      "url": "https://ojo.art/",
+      "type": "Design",
+      "ecosystems": [
+        "Google"
+      ],
+      "capabilities": [],
+      "origin": [],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-18"
     },
     {
       "id": "ok-computer-kimi",
@@ -11239,7 +11378,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "ollama-desktop",
@@ -11283,6 +11422,18 @@
       "hasOutput": false,
       "pick": true,
       "added": "2025-07-26"
+    },
+    {
+      "id": "omarchy",
+      "name": "Omarchy",
+      "url": "https://omarchy.org/manual/ai/",
+      "type": "Linux",
+      "ecosystems": [],
+      "capabilities": [],
+      "origin": [],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-29"
     },
     {
       "id": "omegacloud",
@@ -11491,7 +11642,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "open-ai-refreshed",
@@ -11835,6 +11986,22 @@
       "added": "2026-04-23"
     },
     {
+      "id": "opentrade",
+      "name": "OpenTrade",
+      "url": "https://github.com/OpenTradeOSS/OpenTrade",
+      "type": "Trading",
+      "ecosystems": [],
+      "capabilities": [
+        "Open Source",
+        "Terminal",
+        "Installation"
+      ],
+      "origin": [],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-18"
+    },
+    {
       "id": "openui-web-demo",
       "name": "OpenUI  - WEB Demo",
       "url": "https://openui.fly.dev/",
@@ -12013,6 +12180,20 @@
       "hasOutput": false,
       "pick": true,
       "added": "2025-09-02"
+    },
+    {
+      "id": "ox-alpha",
+      "name": "OX Alpha",
+      "url": "https://oxalpha.com/",
+      "type": "LLM",
+      "ecosystems": [],
+      "capabilities": [],
+      "origin": [
+        "China"
+      ],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-26"
     },
     {
       "id": "palmier-pro",
@@ -12275,7 +12456,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "persona",
@@ -12406,7 +12587,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "pi-dev",
@@ -12684,7 +12865,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "pokee",
@@ -12714,7 +12895,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2025-07-20"
     },
     {
       "id": "polsia",
@@ -13067,7 +13248,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "qreates",
@@ -13140,6 +13321,20 @@
       "hasOutput": true,
       "pick": true,
       "added": "2024-12-26"
+    },
+    {
+      "id": "qwen-3-8-flash",
+      "name": "Qwen  3.8 -Flash",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "type": "LLM",
+      "ecosystems": [],
+      "capabilities": [],
+      "origin": [
+        "China"
+      ],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-28"
     },
     {
       "id": "qwen-2-5",
@@ -13230,6 +13425,20 @@
       "added": "2025-08-07"
     },
     {
+      "id": "qwen-work",
+      "name": "Qwen Work",
+      "url": "https://qwenwork.ai/",
+      "type": "Productivity",
+      "ecosystems": [],
+      "capabilities": [],
+      "origin": [
+        "China"
+      ],
+      "hasOutput": false,
+      "pick": true,
+      "added": "2026-08-28"
+    },
+    {
       "id": "qwen-code",
       "name": "Qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
@@ -13315,7 +13524,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "ragapp",
@@ -13527,6 +13736,18 @@
       "hasOutput": true,
       "pick": true,
       "added": "2024-05-27"
+    },
+    {
+      "id": "relume-ai",
+      "name": "Relume.ai",
+      "url": "https://www.relume.ai/",
+      "type": "Design",
+      "ecosystems": [],
+      "capabilities": [],
+      "origin": [],
+      "hasOutput": true,
+      "pick": true,
+      "added": "2026-08-26"
     },
     {
       "id": "remotion",
@@ -13944,7 +14165,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "runwayml-gen-3-alpha-turbo",
@@ -14422,7 +14643,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "snaptodo",
@@ -14594,7 +14815,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "stable-diffusion-3-5-large",
@@ -14813,7 +15034,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "super-design",
@@ -14942,7 +15163,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "t2v-01-director",
@@ -15011,7 +15232,7 @@
       "origin": [],
       "hasOutput": false,
       "pick": true,
-      "added": null
+      "added": "2025-05-15"
     },
     {
       "id": "tempo-labs",
@@ -15309,7 +15530,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "toolhouse",
@@ -15670,7 +15891,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "v0-dev-templates",
@@ -15696,7 +15917,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": true,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "vector-shift-conversational",
@@ -15969,7 +16190,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "video-dit-ttt",
@@ -16245,7 +16466,7 @@
       "origin": [],
       "hasOutput": true,
       "pick": false,
-      "added": null
+      "added": "2024-05-25"
     },
     {
       "id": "winai",
